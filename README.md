@@ -11,9 +11,9 @@
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
         f"/api/v1.0/YYYY-MM-DD<br/>"
-        f"/api/v1.0/startYYYY-MM-DD/endYYYY-MM-DD<br/>" #My code that was causing the error
-        f"/api/v1.0/&lt;start&gt;/&lt;end&gt<br/>" #Xpert Learning Assistant
-        f"To get the temperature data for a specific date range, replace `start` and `end` in the URL above with the start and end dates in YYYY-MM-DD format.</br>"
+        f"/api/v1.0/startYYYY-MM-DD/endYYYY-MM-DD" #My code that was causing the error <br/>
+        f"/api/v1.0/&lt;start&gt;/&lt;end&gt" #Xpert Learning Assistant <br/>
+        f"To get the temperature data for a specific date range, replace `start` and `end` in the URL above with the start and end dates in YYYY-MM-DD format." </br>
         f"For example:/api/v1.0/2016-08-23/2017-08-23;" #Xpert Learning Assistant suggested adding documentation on how to properly display the data
      
 
