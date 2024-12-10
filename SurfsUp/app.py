@@ -140,11 +140,9 @@ def temperature_start(start):
 def temperature_start_end(start, end):
     session = Session(engine)
 
-    # Correctly convert start and end to datetime objects
     start_date = datetime.strptime(start, '%Y-%m-%d')  
     end_date = datetime.strptime(end, '%Y-%m-%d')  
    
-
     results = session.query(func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)).\
         filter(Measurement.date >= start_date).\
         filter(Measurement.date <= end_date).\
